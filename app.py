@@ -270,17 +270,17 @@ elif option == "📈 Visualisasi Sentimen":
                 
                 with col1:
                     st.markdown("#### 😊 Word Cloud Positif")
-                    img_positive = Image.open('images/wordcloud_positif.png')
+                    img_positive = Image.open('images/positif.png')
                     st.image(img_positive, use_container_width=True)
                 
                 with col2:
                     st.markdown("#### 😞 Word Cloud Negatif")
-                    img_negative = Image.open('images/wordcloud_negatif.png')
+                    img_negative = Image.open('images/negatif.png')
                     st.image(img_negative, use_container_width=True)
                 
                 with col3:
                     st.markdown("#### 😐 Word Cloud Netral")
-                    img_neutral = Image.open('images/wordcloud_netral.png')
+                    img_neutral = Image.open('images/seluruh kata.png')
                     st.image(img_neutral, use_container_width=True)
                     
             except FileNotFoundError:
