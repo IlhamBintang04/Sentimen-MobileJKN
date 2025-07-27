@@ -279,7 +279,7 @@ elif option == "📈 Visualisasi Sentimen":
                     st.image(img_negative, use_container_width=True)
                 
                 with col3:
-                    st.markdown("#### 😐 Word Cloud Netral")
+                    st.markdown("#### 😐 Word Cloud Keseluruhan")
                     img_neutral = Image.open('images/seluruh kata.png')
                     st.image(img_neutral, use_container_width=True)
                     
